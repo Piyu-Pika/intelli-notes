@@ -36,6 +36,7 @@ A sleek and intuitive note-taking application created using Flutter and Firebase
 - 🧠 AI-powered conversion of voice notes to structured text
 - 🌚 AMOLED black theme for OLED screens
 - 📷 Image-to-text functionality using Google ML Kit
+- ✅ Todo list management with AI-powered generation
 
 ## 🔐 Security Features
 - **End-to-End Encryption**: All note content is encrypted using AES encryption before being stored in the database
@@ -43,6 +44,17 @@ A sleek and intuitive note-taking application created using Flutter and Firebase
 - **PIN Reset**: Easily reset your PIN if forgotten, with email verification for added security
 - **Auto-lock**: Locked notes are automatically hidden from the main view
 - **Secure Storage**: Encrypted notes are stored in Firebase Firestore, ensuring data remains protected even if the database is compromised
+
+## 📋 Todo List Management
+- Create, edit, and delete todo items
+- Mark todos as completed with a checkbox
+- Set reminders for individual todo items
+- Search functionality to quickly find specific todos
+- Swipe-to-delete for easy todo removal
+- Long-press to edit or delete todos
+- AI-powered todo list generation from context
+- Prioritized todo list with time estimates (AI-generated)
+- Local notifications for todo reminders
 
 ## 🔄 App Updates
 - Now you can check for updates using Firebase Remote Config
@@ -147,6 +159,7 @@ Our app includes powerful AI-driven commands to help you manipulate and enhance 
 - ✨ avatar_glow for visual recording indicator
 - 📷 image_picker for selecting images from gallery or camera
 - 🖼️ google_mlkit_text_recognition for extracting text from images
+- 📅 intl package for date formatting
 
 ## 🚀 Getting Started
 1. 📥 Clone the repository
@@ -179,14 +192,14 @@ Our app includes powerful AI-driven commands to help you manipulate and enhance 
 
 ## 📖 Usage
 - 👤 Register or login with a sleek, user-friendly interface
-- ➕ Tap the floating action button to add a new note
+- ➕ Tap the floating action button to add a new note or todo
 - ✏️ Fill in the title, content, and an optional link for your note
 - 🧠 Use the AI title generator to create a title based on your note content
 - 🎨 Select a color for your note to categorize it
 - 🏷️ Add tags to your notes for easy filtering
 - 📌 Pin important notes to keep them at the top of your list
 - 💾 Tap 'Save Note' to store your encrypted note securely
-- 🔍 Use the search functionality in the app bar to find specific notes
+- 🔍 Use the search functionality in the app bar to find specific notes or todos
 - 💬 Chat with your notes to get AI-powered insights and answers
 - 🤖 Use AI commands (/edit, /update, /rewrite, /addemoji, /translate) to manipulate your notes
 - 🌓 Toggle between light and dark modes for comfortable viewing
@@ -215,6 +228,15 @@ Our app includes powerful AI-driven commands to help you manipulate and enhance 
 - 📷 Use the image-to-text feature to extract text from images
 - 📸 Capture an image or select from gallery to extract text
 - 📝 Review and edit the extracted text before adding it to your note
+- ✅ Create new todos by tapping the floating action button in the Todo List screen
+- 📅 Set reminders for individual todos with date and time
+- ✔️ Mark todos as completed by tapping the checkbox
+- 🔍 Search for specific todos using the search bar
+- 🖐️ Long-press on a todo to edit or delete it
+- 👆 Swipe left on a todo to quickly delete it
+- 🤖 Generate AI-powered todo lists by providing context or description of tasks
+- 📊 View prioritized todo lists with time estimates (AI-generated)
+- 🔔 Receive local notifications for todo reminders
 
 ## 🆕 UI Enhancements
 - Color-coded notes for easy visual categorization
@@ -259,4 +281,3 @@ Piyush Bhardwaj
 - google_generative_ai package for AI-powered features
 - avatar_glow package for visual feedback
 - image_picker package for image selection
-
